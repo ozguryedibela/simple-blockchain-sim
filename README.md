@@ -19,14 +19,9 @@ The following C++ concepts are actively used in this project:
 * **Object-Oriented Programming (OOP):** Data abstraction using the `Block` class.
 * **File I/O:** Reading and writing operations using the `fstream` library.
 * **Pointers & Memory Management:** Passing data by reference to functions.
-* **Vector:** Using `std::vector` to dynamically manage the chain structure.
+* **Vector:** Using `vector` to dynamically manage the chain structure.
 * **Hashing:** External SHA-256 implementation.
 
 ## Installation and Compilation
 
-To run this project, ensure that `sha256.h` and `sha256.cpp` (or the relevant library files) are located in the same directory as the source code.
-
-You can use the following command to compile the project (using G++):
-
-```bash
-g++ main.cpp sha256.cpp -o blockchain_sim
+To run this project, ensure that `sha256.h` and `sha256.cpp` are located in the same directory as the source code.
